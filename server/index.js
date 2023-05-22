@@ -4,7 +4,7 @@ import morgan from "morgan";
 import authRouter from "./router/auth.js";
 import { config } from "./config.js";
 import { sequelize } from "./db/database.js"
-import mainController from "./controller/main.js"
+// import mainController from "./controller/main.js"
 import mainRouter from "./router/main.js"
 
 const app = express();
